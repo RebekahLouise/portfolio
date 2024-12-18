@@ -1,29 +1,30 @@
 body {
+  background-image: url("images/stars.gif");
   background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: 'Courier New', monospace;
   color: white;
   text-align: center;
   padding: 100px 20px;
-  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 h2 {
-  font-size: 35px;
-  border-color: white;
-  background-color: white;
-  color: black;
-  padding: 10px;
-  width: 80%;
-  margin: 20px auto; 
+  font-size: 40px;
+  color: white;
+  width: 100%;
+  margin: auto; 
 }
 
 p {
   font-size: 20px;
-  width: 80%; 
-  margin: 20px auto; 
+  width: 100%; 
+  margin: auto; 
 }
 
 .button {
@@ -190,4 +191,40 @@ td {
   border: 1px solid #ccc;
   border-radius: 0%;
   height: 30px;
+}
+
+.music-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.music-box {
+  padding: 20px;
+  border: 3px solid #b2b2b2;
+  color: #848484;
+  width: 23%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
+}
+
+.music-box h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.music-box h4 {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content {
+  flex: 1;
+  padding: 5%;
 }
